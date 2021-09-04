@@ -1,0 +1,74 @@
+#discription {
+  width: 50%;
+  font-size: 15px;
+  color: #cdcdcd;
+  position: relative;
+  top: 155px;
+  left: 55px;
+}
+h1 {
+  font-size: 45px;
+}
+#details {
+  top: 10px;
+}
+
+button {
+  color: black;
+  width: 300px;
+  height: 100px;
+  background-color: #a4a4a4;
+
+  justify-content: center;
+  position: relative;
+  top: 75px;
+  left: 20px;
+}
+#joinButton {
+  border: 0.15rem solid white; /* rem is a root version of em */
+  font-size: 30px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 35px;
+  }
+  #discription {
+    width: 75%;
+  }
+  body {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 450px) {
+  #brand {
+    font-size: 120%;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  button {
+    width: 100px;
+    height: 33px;
+  }
+  #joinButton {
+    padding: 5px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 350px) {
+  #brand {
+    font-size: 80%;
+  }
+  #navList {
+    font-size: 12px;
+  }
+}
+@media (min-height: 1300px) {
+  button {
+    top: 300px;
+  }
+}

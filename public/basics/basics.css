@@ -1,0 +1,34 @@
+#navbar {
+  display: flex;
+  justify-content: space-between; /* making the brand name and the navList to left and right respectively */
+  flex-direction: row;
+}
+
+#navList {
+  float: none;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end; /* end does not work in justify-content in flex, please use flex-end instead */
+}
+
+#brand {
+  font-size: 200%;
+  color: white;
+}
+#logo {
+  font-size: 175%;
+}
+
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 0.6) 85%,
+      rgba(50, 50, 50, 0.8) 100%
+    ),
+    /* add a linear gradient layer on the image (the percentage represents the position of the gradients) */
+      url(backgroundImage.jpeg);
+
+  background-size: cover; /* the image can cover the full webpage */
+}

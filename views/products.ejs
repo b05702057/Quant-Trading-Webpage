@@ -1,0 +1,59 @@
+<%- include('partials/head') %> 
+<%- include('partials/navbar') %> 
+<div id="discription">
+    <h1>
+        <b>OUR PRODUCTS</b>
+    </h1>
+    <p id="details">
+        To maximize the profit and minimize the risk, AQUANTING has built tens of machine learning models with 
+        data of financial statements, financial news, and candlestick charts, monitoring the market <b>24/7</b>.
+        <b>We are currently offering three distinct projects that implement different models and possess their own
+        risks and profits.</b>
+    </p>
+</div> 
+
+<section class="container-fluid" id="cards">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">FIXED RATE</h4>
+            <p class="card-text">GURANTEED APY of 12%</p>
+            <p class="card-text">SUITABLE FOR: BEGINNING INVESTORS</p>
+            <div class="container-fluid" id="button1">
+                <form action="/account">
+                    <button type="submit" class="btn btn-dark" class="applyButton">
+                        <b>APPLY</b>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">VARIABLE RATE (STABLE)</h4>
+            <p class="card-text">ESTIMATED APY of 21%</p>
+            <p class="card-text">SUITABLE FOR: RISK AVERTER</p>
+            <div class="container-fluid" id="button2">
+                <form action="/account">
+                    <button type="submit" class="btn btn-dark" class="applyButton">
+                        <b>APPLY</b>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">VARIABLE RATE (VOLATILE)</h4>
+            <p class="card-text">ESTIMATED APY of 40%</p>
+            <p class="card-text">SUITABLE FOR: RISK SEEKER</p>
+            <div class="container-fluid" id="button3">
+                <form action="/account">
+                    <button type="submit" class="btn btn-dark" class="applyButton">
+                        <b>APPLY</b>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<%- include('partials/footer') %> 

@@ -1,0 +1,28 @@
+form {
+  position: relative;
+  top: 120px;
+  margin-left: 30%;
+  margin-right: 30%;
+  /* the margins are 30% of the wifth of the form */
+}
+label {
+  color: #cdcdcd;
+  font-size: 20px;
+}
+#submitButton {
+  position: relative;
+  top: 15px;
+  font-size: 16px;
+  padding: 10px 24px;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+#joinLink {
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+  color: #cdcdcd;
+  text-decoration: underline;
+}

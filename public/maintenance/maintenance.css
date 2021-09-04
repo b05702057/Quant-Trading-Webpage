@@ -1,0 +1,21 @@
+h4 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card {
+  width: 525px;
+  height: 200px;
+  padding: 10px;
+  border: 0.15rem solid white;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  position: relative;
+  top: 125px;
+  margin: 0 30%;
+}
+#card-text {
+  font-size: 1.7rem;
+  font-weight: bold;
+}

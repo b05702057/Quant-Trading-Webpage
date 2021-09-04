@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!-- declaring that this is an html file -->
+<html lang="en"></html> <!-- declaring that this is an English webpage -->
+
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <!-- viewport is the range people can see -->
+
+  <title>AQUANTING</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/basics/basics.css"/> <!-- the basic css styles every page needs -->
+  <% for (const cssPath of cssPaths) {%>
+    <% console.log(cssPath) %>
+    <link rel="stylesheet" href="<%= cssPath %>"/> <!-- the specific css styles different pages need -->
+  <% } %>
+  <!-- <link rel="stylesheet" href="home.css" /> -->
+  <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap.min.js"></script>  -->
+  <!-- including boostap and css files remotely or locally (they may have different versions and defaults)-->
+</head>
+<body>

@@ -1,0 +1,97 @@
+#discription {
+  width: 53%;
+  font-size: 15px;
+  color: #cdcdcd;
+  position: relative;
+  top: 100px;
+  left: 175px;
+}
+h1 {
+  font-size: 55px;
+}
+#details {
+  top: 15px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.card {
+  width: 300px;
+  height: 170px;
+  padding: 10px;
+  border: 0.15rem solid white;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+#card-text {
+  font-weight: bold;
+}
+button {
+  background-color: #a4a4a4;
+  position: relative;
+  top: 8px;
+}
+#button1 {
+  display: flex;
+  justify-content: center;
+}
+#button2 {
+  display: flex;
+  justify-content: center;
+}
+#button3 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 35px;
+  }
+  #discription {
+    width: 50%;
+  }
+  #cards {
+    height: 750px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 450px) {
+  #brand {
+    font-size: 120%;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  #discription {
+    left: 100px;
+  }
+  .card {
+    top: 75px;
+    left: 20px;
+    width: 270px;
+  }
+}
+@media (max-width: 350px) {
+  #brand {
+    font-size: 80%;
+  }
+  #navList {
+    font-size: 12px;
+  }
+}
