@@ -3,7 +3,7 @@
 ### A professional webpage for a quant trading company
 
 ## Task
-Write a website for a quant trading firm for people to log in, register new accounts, and gain access to the products of the company
+Write a website for a quant trading firm for people to register new accounts, log in, and gain access to the products of the company
 
 ### Run Locally
 * Run this Command: git clone https://github.com/b05702057/Quant-Trading-Webpage.git
