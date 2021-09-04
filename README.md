@@ -6,7 +6,7 @@
 Write a website for a quant trading firm for people to log in, register new accounts, and gain access to the products of the company
 
 ### Run Locally
-* Run this Command: git clone <https://github.com/b05702057/Audi-Used-Car-Market-Analysis.git>
+* Run this Command: git clone https://github.com/b05702057/Quant-Trading-Webpage.git
 * Install the node module folder here: https://docs.npmjs.com/cli/v7/configuring-npm/folders
 * Run this Command: nodemon index.js
 
